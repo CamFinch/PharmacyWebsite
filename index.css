@@ -104,7 +104,7 @@ top: 50px;
     position: relative;
     height: 100px;
     width: 400px;
-    border: 2px solid black;
+    
     border-radius: 20px;
     left: 80px;
     text-align: center;
@@ -120,7 +120,7 @@ top: 50px;
 
 .checkprices a {
     text-decoration: none;
-    color: black;
+    
     font-size: 24px;
     
 
@@ -204,6 +204,33 @@ gmp-map{
         color: #4CAF50;
     }
 
+    .checkprices{
+    top: 120px;
+    position: relative;
+    height: 100px;
+    width: 400px;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    border-radius: 20px;
+    left: 80px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    
+    
+    }
+
+    .checkprices a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 24px;
+    
+
+    }
+    .checkprices a:hover {
+        color: blue;
+    }
+
     .section-bottom1{
         position: relative;
         height: 300px;
@@ -211,6 +238,57 @@ gmp-map{
         top: 200px;
         margin: auto;
     }
+    .mainsectionfooter{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    }
+    .mainsectionfooter h4{
+    font-size: 20px;
+    }
+    .mainsectionfooter p {
+    font-size: large;
+    }
+    .section-bottom1{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 5% 50% 50% 15%;
+    }
+
+    .shots{
+    height: 200px;
+    width: 200px;
+    grid-column: 2;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    }
+
+    .medication{
+    height: 200px;
+    width: 200px;
+    grid-column: 3;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    }
+
+
+    gmp-map{
+    width: 400px;
+    height: 300px;
+    top: 200px;
+    margin: auto;
+    position: relative;
+    }
+    .bottom{
+    height: 200px;
+    }
+
 }
 
 
