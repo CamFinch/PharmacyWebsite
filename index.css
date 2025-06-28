@@ -297,21 +297,513 @@ gmp-map{
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {    
+
+    header{
+    
+    position: fixed;
+    height: 80px;
+    width: 680px;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    background-color: white;
+    border-radius: 20pc;
+    z-index: 2;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    left: 40px;
+   
+
+    }   
+
+     header h1{
+        transform: scale(0.9);
+        text-align: center;
+        margin-left: -130px;
+    }
+
+    #image2{
+        width: 700px;
+        height: 320px;
+        position: relative;
+        left: 20px;
+    }
+    
+    #logoimg{
+    position: fixed;
+    top: 22px;
+    left: 60px;
+    }
+
+    .dropdown{
+        position: relative;
+        display: inline-block;
+        bottom: 70px;
+        left: 590px;
+    }
+    .dropdownbutton{
+        top: 24px;
+        right: 45px;
+        height: 40px;
+        width: 40px;
+        font-size: 23px;
+        border:none;
+        background-color: transparent;
+        
+
+    }
+
+    .dropdowncontents{
+    display: none;
+    position: absolute;
+    height: 130px;
+    width: 200px;
+    z-index: 1;
+    border: 2px solid black;
+    background-color: white;
+    right: 0px;
+    top: 50px;
+
+
+    }
+
+    .dropdowncontents a{
+        text-align: center;
+        color: #4CAF50;
+    }
+
+    .show {display:inline-block;}
+
+    .main-section{
+        position: relative;
+        top: 170px;
+        height: 200px;
+        width: 500px;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #4CAF50;
+    }
+
+    .checkprices{
+    top: 150px;
+    position: relative;
+    height: 100px;
+    width: 400px;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    border-radius: 20px;
+    left: 160px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    
+    
+    }
+
+    .checkprices a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 24px;
+    
+
+    }
+    .checkprices a:hover {
+        color: blue;
+    }
+
+    .section-bottom1{
+        position: relative;
+        height: 300px;
+        width: 500px;
+        top: 220px;
+        margin: auto;
+    }
+    .mainsectionfooter{
+    text-align: center;
+    position: relative;
+    top: 190px;
+    }
+    .mainsectionfooter h4{
+    font-size: 20px;
+    }
+    .mainsectionfooter p {
+    font-size: large;
+    }
+    .section-bottom1{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 5% 50% 50% 15%;
+    }
+
+    .shots{
+    height: 200px;
+    width: 200px;
+    grid-column: 2;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    }
+
+    .medication{
+    height: 200px;
+    width: 200px;
+    grid-column: 3;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    }
+
+
+    gmp-map{
+    width: 400px;
+    height: 300px;
+    top: 200px;
+    margin: auto;
+    position: relative;
+    }
+    .bottom{
+    height: 200px;
+    }    
+
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+     header h1{
+        transform: scale(0.7);
+        text-align: center;
+        margin-left: -130px;
+        
+    }
+
+  
+
+    .main-section{
+        position: relative;
+        top: 150px;
+        height: 200px;
+        width: 500px;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #4CAF50;
+    }
+
+    .checkprices{
+    top: 120px;
+    position: relative;
+    height: 100px;
+    width: 400px;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    border-radius: 20px;
+    left: 80px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    
+    
+    }
+
+    .checkprices a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 24px;
+    
+
+    }
+    .checkprices a:hover {
+        color: blue;
+    }
+
+    .section-bottom1{
+        position: relative;
+        height: 300px;
+        width: 500px;
+        top: 200px;
+        margin: auto;
+    }
+    .mainsectionfooter{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    }
+    .mainsectionfooter h4{
+    font-size: 20px;
+    }
+    .mainsectionfooter p {
+    font-size: large;
+    }
+    .section-bottom1{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 5% 50% 50% 15%;
+    }
+
+    .shots{
+    height: 200px;
+    width: 200px;
+    grid-column: 2;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    }
+
+    .medication{
+    height: 200px;
+    width: 200px;
+    grid-column: 3;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    }
+
+
+    gmp-map{
+    width: 400px;
+    height: 300px;
+    top: 200px;
+    margin: auto;
+    position: relative;
+    }
+    .bottom{
+    height: 200px;
+    }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+     header h1{
+        transform: scale(0.7);
+        text-align: center;
+        margin-left: -130px;
+        color: black;
+    }
+
+  
+
+    .main-section{
+        position: relative;
+        top: 150px;
+        height: 200px;
+        width: 500px;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #4CAF50;
+    }
+
+    .checkprices{
+    top: 120px;
+    position: relative;
+    height: 100px;
+    width: 400px;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    border-radius: 20px;
+    left: 80px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    
+    
+    }
+
+    .checkprices a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 24px;
+    
+
+    }
+    .checkprices a:hover {
+        color: blue;
+    }
+
+    .section-bottom1{
+        position: relative;
+        height: 300px;
+        width: 500px;
+        top: 200px;
+        margin: auto;
+    }
+    .mainsectionfooter{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    }
+    .mainsectionfooter h4{
+    font-size: 20px;
+    }
+    .mainsectionfooter p {
+    font-size: large;
+    }
+    .section-bottom1{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 5% 50% 50% 15%;
+    }
+
+    .shots{
+    height: 200px;
+    width: 200px;
+    grid-column: 2;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    }
+
+    .medication{
+    height: 200px;
+    width: 200px;
+    grid-column: 3;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    }
+
+
+    gmp-map{
+    width: 400px;
+    height: 300px;
+    top: 200px;
+    margin: auto;
+    position: relative;
+    }
+    .bottom{
+    height: 200px;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+     header h1{
+        transform: scale(0.7);
+        text-align: center;
+        margin-left: -130px;
+    }
+
+  
+
+    .main-section{
+        position: relative;
+        top: 150px;
+        height: 200px;
+        width: 500px;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #4CAF50;
+    }
+
+    .checkprices{
+    top: 120px;
+    position: relative;
+    height: 100px;
+    width: 400px;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    border-radius: 20px;
+    left: 80px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    
+    
+    }
+
+    .checkprices a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 24px;
+    
+
+    }
+    .checkprices a:hover {
+        color: blue;
+    }
+
+    .section-bottom1{
+        position: relative;
+        height: 300px;
+        width: 500px;
+        top: 200px;
+        margin: auto;
+    }
+    .mainsectionfooter{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    }
+    .mainsectionfooter h4{
+    font-size: 20px;
+    }
+    .mainsectionfooter p {
+    font-size: large;
+    }
+    .section-bottom1{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 5% 50% 50% 15%;
+    }
+
+    .shots{
+    height: 200px;
+    width: 200px;
+    grid-column: 2;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    }
+
+    .medication{
+    height: 200px;
+    width: 200px;
+    grid-column: 3;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #4CAF50;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    }
+
+
+    gmp-map{
+    width: 400px;
+    height: 300px;
+    top: 200px;
+    margin: auto;
+    position: relative;
+    }
+    .bottom{
+    height: 200px;
+    }
 
 }
