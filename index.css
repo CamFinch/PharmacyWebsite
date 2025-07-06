@@ -1,11 +1,34 @@
 @keyframes headerchange{
-    0% {color: #4CAF50;}
-    25% {color:#209724;}
-    50% {color: #085a0a;}
-    75% {color: #0a440c;}
-    100% {color: #085a0a;}
+    0% {color: #540d6e;}
+    25% {color:#e53e61;}
+    50% {color: #b22446;}
+    75% {color:#e53e61;}
+    100% {color: #540d6e;}
+    
 }
+/*
+#540d6e purple
+#e53e61 redish
+#b22446 redder
+#ffbe58 yellow
+#c98020 yellowdark
 
+
+*/
+
+@keyframes findprice {
+    0% {transform: scale(0.0);}
+    10% {transform: scale(0.1);}
+    20% {transform: scale(0.2);}
+    30% {transform: scale(0.3);}
+    50% {transform: scale(0.5);}
+    70% {transform: scale(0.7);}
+    90% {transform: scale(0.9);}
+    100% {transform: scale(1.0);}
+    
+
+
+}
 
 .oswald-font1 {
     font-family: "Oswald", sans-serif;
@@ -24,12 +47,13 @@ header{
     height: 70px;
     width: 560px;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     background-color: white;
     border-radius: 20pc;
     z-index: 2;
     animation-name: headerchange;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
    
 
 }
@@ -43,8 +67,9 @@ header h1{
 }
 #logoimg{
     position: fixed;
-    top: 19px;
-    left: 30px;
+    top: 14px;
+    left: 32px;
+
 }
 
 .dropdown{
@@ -81,7 +106,10 @@ top: 50px;
 
 .dropdowncontents a{
     text-align: center;
-    color: #4CAF50;
+    color: #540d6e;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 .show {display:inline-block;}
@@ -97,8 +125,18 @@ top: 50px;
     height: 300px;
     width: 560px;
     border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
+.slogan1{
+    animation-name: findprice;
+    animation-duration: 0.5s;
+    margin: auto;
+    text-align: center
+}
 .checkprices{
     top: 120px;
     position: relative;
@@ -151,10 +189,11 @@ top: 50px;
     width: 200px;
     grid-column: 2;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 .medication{
@@ -162,10 +201,11 @@ top: 50px;
     width: 200px;
     grid-column: 3;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 
@@ -175,7 +215,10 @@ gmp-map{
     top: 200px;
     margin: auto;
     position: relative;
+    left: 70px;
+    
 }
+
 .bottom{
     height: 200px;
 }
@@ -201,7 +244,10 @@ gmp-map{
         margin: auto;
         text-align: center;
         box-shadow: 0px 8px 16px 0px ;
-        color: #4CAF50;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
     }
 
     .checkprices{
@@ -215,15 +261,21 @@ gmp-map{
     left: 80px;
     text-align: center;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     
     
     }
 
     .checkprices a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #540d6e;
     font-size: 24px;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     
 
     }
@@ -260,7 +312,7 @@ gmp-map{
     width: 200px;
     grid-column: 2;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
@@ -271,7 +323,7 @@ gmp-map{
     width: 200px;
     grid-column: 3;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
@@ -305,7 +357,7 @@ gmp-map{
     height: 80px;
     width: 680px;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     background-color: white;
     border-radius: 20pc;
     z-index: 2;
@@ -369,7 +421,7 @@ gmp-map{
 
     .dropdowncontents a{
         text-align: center;
-        color: #4CAF50;
+        color: #540d6e;
     }
 
     .show {display:inline-block;}
@@ -384,7 +436,7 @@ gmp-map{
         margin: auto;
         text-align: center;
         box-shadow: 0px 8px 16px 0px ;
-        color: #4CAF50;
+        color: #540d6e;
     }
 
     .checkprices{
@@ -398,14 +450,14 @@ gmp-map{
     left: 160px;
     text-align: center;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     
     
     }
 
     .checkprices a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #540d6e;
     font-size: 24px;
     
 
@@ -443,7 +495,7 @@ gmp-map{
     width: 200px;
     grid-column: 2;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
@@ -454,7 +506,7 @@ gmp-map{
     width: 200px;
     grid-column: 3;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
@@ -496,7 +548,7 @@ gmp-map{
         margin: auto;
         text-align: center;
         box-shadow: 0px 8px 16px 0px ;
-        color: #4CAF50;
+        color: #540d6e;
     }
 
     .checkprices{
@@ -509,15 +561,14 @@ gmp-map{
     border-radius: 20px;
     left: 80px;
     text-align: center;
-    box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    box-shadow: #540d6e;
     
     
     }
 
     .checkprices a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #540d6e;
     font-size: 24px;
     
 
@@ -555,7 +606,7 @@ gmp-map{
     width: 200px;
     grid-column: 2;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
@@ -566,7 +617,7 @@ gmp-map{
     width: 200px;
     grid-column: 3;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
@@ -608,7 +659,7 @@ gmp-map{
         margin: auto;
         text-align: center;
         box-shadow: 0px 8px 16px 0px ;
-        color: #4CAF50;
+        color: #540d6e;
     }
 
     .checkprices{
@@ -622,14 +673,14 @@ gmp-map{
     left: 80px;
     text-align: center;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     
     
     }
 
     .checkprices a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #540d6e;
     font-size: 24px;
     
 
@@ -667,7 +718,7 @@ gmp-map{
     width: 200px;
     grid-column: 2;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
@@ -678,7 +729,7 @@ gmp-map{
     width: 200px;
     grid-column: 3;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
@@ -718,7 +769,7 @@ gmp-map{
         margin: auto;
         text-align: center;
         box-shadow: 0px 8px 16px 0px ;
-        color: #4CAF50;
+        color: #540d6e;
     }
 
     .checkprices{
@@ -732,14 +783,14 @@ gmp-map{
     left: 80px;
     text-align: center;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     
     
     }
 
     .checkprices a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #540d6e;
     font-size: 24px;
     
 
@@ -777,7 +828,7 @@ gmp-map{
     width: 200px;
     grid-column: 2;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
@@ -788,7 +839,7 @@ gmp-map{
     width: 200px;
     grid-column: 3;
     box-shadow: 0px 8px 16px 0px ;
-    color: #4CAF50;
+    color: #540d6e;
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
