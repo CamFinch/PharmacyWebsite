@@ -116,7 +116,7 @@ top: 50px;
 .image-section{
     position: relative;
     top: 100px;
-    height: 300px;
+    height: 290px;
     width: 560px;
     z-index: -1;
 }
@@ -342,16 +342,17 @@ gmp-map{
     .image-section{
         position: relative;
         top: 100px;
-        height: 300px;
+        height: 290px;
         width: 500px;
         z-index: -1;
     }
 
     #image2{
-        height: 300px;
-        width: 490px;
+        height: 290px;
+        width: 480px;
         position: absolute;
         left: 17px;
+        
         border-radius: 20px;
         box-shadow: 0px 8px 16px 0px ;
         animation-name: headerchange;
@@ -423,7 +424,7 @@ gmp-map{
     .mainsectionfooter{
     
     position: relative;
-    top: 230px;
+    top: 330px;
     margin: auto;
     }
     .mainsectionfooter h4{
@@ -461,9 +462,8 @@ gmp-map{
     }
 
     .diagramimg{
-    height: 250px;
+    height: 400px;
     width: 480px;
-    border-radius: 20px;
     box-shadow: 0px 8px 16px 0px ;
     animation-name: headerchange;
     animation-duration: 10s;
@@ -473,6 +473,15 @@ gmp-map{
 
     
 
+    }
+
+    .diagramimg img{
+        height: 350px;
+        width: 450px;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        bottom: 0px;
     }
 
     .diagramimagehelp{
@@ -486,7 +495,7 @@ gmp-map{
     }
     .medicalequip{
         position: relative;
-        top: 160px;
+        top: 290px;
         height: 200px;
         width: 480px;
         animation-name: headerchange;
@@ -503,7 +512,7 @@ gmp-map{
     }
     .reviews{
         position: relative;
-        top: 180px;
+        top: 300px;
         height: 200px;
         width: 480px;
         animation-name: headerchange;
@@ -523,7 +532,7 @@ gmp-map{
     gmp-map{
     width: 400px;
     height: 300px;
-    top: 280px;
+    top: 390px;
     margin: auto;
     position: relative;
     }
