@@ -208,6 +208,59 @@ top: 50px;
     animation-iteration-count: infinite;
 }
 
+.diagramimg{
+    height: 300px;
+    width: 480px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+.diagramimagehelp{
+    position: relative;
+    top: 150px;
+    height: 300px;
+    width: 560px;
+    z-index: -1;
+}
+.medicalequip{
+    position: relative;
+    top: 180px;
+    height: 200px;
+    width: 500px;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #540d6e;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    left: 30px;
+
+}
+.reviews{
+    position: relative;
+    top: 180px;
+    height: 200px;
+    width: 500px;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #540d6e;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    left: 30px;
+
+}
 
 gmp-map{
     width: 400px;
