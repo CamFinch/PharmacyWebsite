@@ -286,7 +286,7 @@ gmp-map{
 
     }
     header{
-        width: 480px;
+        width: 490px;
         margin: auto;
         left: 25px;
     }
@@ -349,9 +349,9 @@ gmp-map{
 
     #image2{
         height: 300px;
-        width: 480px;
+        width: 490px;
         position: absolute;
-        left: 20px;
+        left: 17px;
         border-radius: 20px;
         box-shadow: 0px 8px 16px 0px ;
         animation-name: headerchange;
@@ -364,7 +364,7 @@ gmp-map{
         position: relative;
         top: 150px;
         height: 200px;
-        width: 500px;
+        width: 480px;
         animation-name: headerchange;
         animation-duration: 10s;
         margin: auto;
@@ -374,7 +374,9 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 10s;
         animation-iteration-count: infinite;
-        left: 30px;
+        left: 10px;
+        padding: 10px;
+        
     }
 
     .checkprices{
@@ -416,12 +418,13 @@ gmp-map{
         width: 500px;
         top: 200px;
         margin: auto;
-        left: 20px;
+        left: 5px;
     }
     .mainsectionfooter{
-    left: 40px;
+    
     position: relative;
-    top: 150px;
+    top: 230px;
+    margin: auto;
     }
     .mainsectionfooter h4{
     font-size: 20px;
@@ -457,11 +460,70 @@ gmp-map{
     animation-duration: 10s;
     }
 
+    .diagramimg{
+    height: 250px;
+    width: 480px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin: auto;
+    left: 10px;
+
+    
+
+    }
+
+    .diagramimagehelp{
+        position: relative;
+        top: 150px;
+        height: 300px;
+        width: 480px;
+        z-index: -1;
+        margin: auto;
+        left: 10px;
+    }
+    .medicalequip{
+        position: relative;
+        top: 160px;
+        height: 200px;
+        width: 480px;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        left: 5px;
+
+    }
+    .reviews{
+        position: relative;
+        top: 180px;
+        height: 200px;
+        width: 480px;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        left: 5px;
+
+    }
+    
 
     gmp-map{
     width: 400px;
     height: 300px;
-    top: 200px;
+    top: 280px;
     margin: auto;
     position: relative;
     }
