@@ -225,14 +225,87 @@ gmp-map{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 550px){
     header h1{
-        transform: scale(0.7);
+        transform: scale(0.65);
         text-align: center;
-        margin-left: -130px;
+        margin-left: -90px;
+
+    }
+    header{
+        width: 500px;
+        margin: auto;
+        left: 25px;
     }
 
-  
+  #logoimg{
+    position: fixed;
+    top: 14px;
+    left: 50px;
+
+    }
+    .dropdown{
+    position: relative;
+    display: inline-block;
+    bottom: 75px;
+    left: 420px;
+    }
+    .dropdownbutton{
+        top: 24px;
+        right: 45px;
+        height: 40px;
+        width: 40px;
+        font-size: 23px;
+        border:none;
+        background-color: transparent;
+        
+
+    }
+
+    .dropdowncontents{
+    display: none;
+    position: absolute;
+    height: 130px;
+    width: 200px;
+    z-index: 1;
+    border: 2px solid black;
+    background-color: white;
+    right: 0px;
+    top: 50px;
+
+
+    }
+
+    .dropdowncontents a{
+        text-align: center;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    .show {display:inline-block;}
+
+    .image-section{
+        position: relative;
+        top: 100px;
+        height: 300px;
+        width: 500px;
+        z-index: -1;
+    }
+
+    #image2{
+        height: 300px;
+        width: 500px;
+        position: absolute;
+        left: 15px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px ;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
 
     .main-section{
         position: relative;
@@ -254,11 +327,11 @@ gmp-map{
     top: 120px;
     position: relative;
     height: 100px;
-    width: 400px;
+    width: 350px;
     animation-name: headerchange;
     animation-duration: 10s;
     border-radius: 20px;
-    left: 80px;
+    left: 90px;
     text-align: center;
     box-shadow: 0px 8px 16px 0px ;
     color: #540d6e;
@@ -291,7 +364,7 @@ gmp-map{
         margin: auto;
     }
     .mainsectionfooter{
-    text-align: center;
+    left: 10px;
     position: relative;
     top: 150px;
     }
