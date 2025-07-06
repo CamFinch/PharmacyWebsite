@@ -93,7 +93,7 @@ header h1{
 .dropdowncontents{
 display: none;
 position: absolute;
-height: 130px;
+height: 250px;
 width: 200px;
 z-index: 1;
 border: 2px solid black;
@@ -318,7 +318,7 @@ gmp-map{
     .dropdowncontents{
     display: none;
     position: absolute;
-    height: 130px;
+    height: 200px;
     width: 200px;
     z-index: 1;
     border: 2px solid black;
@@ -371,13 +371,17 @@ gmp-map{
         margin: auto;
         text-align: center;
         box-shadow: 0px 8px 16px 0px ;
-        color: #540d6e;
+        color: black;
+        
         animation-name: headerchange;
         animation-duration: 10s;
         animation-iteration-count: infinite;
         left: 10px;
         padding: 10px;
         
+    }
+    .main-section h3, h2{
+        color: rgb(0, 0, 0);
     }
 
     .checkprices{
@@ -450,6 +454,10 @@ gmp-map{
     animation-duration: 10s;
     }
 
+    .shots h3, p {
+        color: black;
+    }
+
     .medication{
     height: 200px;
     width: 200px;
@@ -459,6 +467,10 @@ gmp-map{
     text-align: center;
     animation-name: headerchange;
     animation-duration: 10s;
+    }
+
+    .medication h3, p {
+    color: black;
     }
 
     .diagramimg{
