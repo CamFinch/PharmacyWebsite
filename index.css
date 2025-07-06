@@ -233,7 +233,7 @@ gmp-map{
 
     }
     header{
-        width: 500px;
+        width: 480px;
         margin: auto;
         left: 25px;
     }
@@ -296,9 +296,9 @@ gmp-map{
 
     #image2{
         height: 300px;
-        width: 500px;
+        width: 480px;
         position: absolute;
-        left: 15px;
+        left: 20px;
         border-radius: 20px;
         box-shadow: 0px 8px 16px 0px ;
         animation-name: headerchange;
@@ -321,6 +321,7 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 10s;
         animation-iteration-count: infinite;
+        left: 30px;
     }
 
     .checkprices{
@@ -362,9 +363,10 @@ gmp-map{
         width: 500px;
         top: 200px;
         margin: auto;
+        left: 20px;
     }
     .mainsectionfooter{
-    left: 10px;
+    left: 40px;
     position: relative;
     top: 150px;
     }
