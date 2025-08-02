@@ -1,8 +1,11 @@
 @keyframes headerchange{
     0% {color: #540d6e;}
-    25% {color:#e53e61;}
-    50% {color: #b22446;}
-    75% {color:#e53e61;}
+    15% {color:#e53e61;}
+    25% {color: #b22446;}
+    40% {color: #3bb2e1;}
+    55% {color: #25d4dc;}
+    70% {color: #b22446;}
+    80% {color:#e53e61;}
     100% {color: #540d6e;}
     
 }
@@ -12,6 +15,9 @@
 #b22446 redder
 #ffbe58 yellow
 #c98020 yellowdark
+##3bb2e1 blue
+##25d4dc light blue
+
 
 
 */
@@ -52,7 +58,7 @@ header{
     border-radius: 20pc;
     z-index: 2;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
    
 
@@ -108,7 +114,7 @@ top: 50px;
     text-align: center;
     color: #540d6e;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
@@ -127,7 +133,7 @@ top: 50px;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px ;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
@@ -136,6 +142,19 @@ top: 50px;
     animation-duration: 0.5s;
     margin: auto;
     text-align: center
+}
+.slogan1 h2{
+    margin: auto;
+    font-size: large;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
 }
 .checkprices{
     top: 120px;
@@ -192,7 +211,7 @@ top: 50px;
     color: #540d6e;
     text-align: center;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
@@ -204,18 +223,13 @@ top: 50px;
     color: #540d6e;
     text-align: center;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
 .diagramimg{
     height: 300px;
     width: 480px;
-    border-radius: 20px;
-    box-shadow: 0px 8px 16px 0px ;
-    animation-name: headerchange;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
     
 
 }
@@ -223,7 +237,7 @@ top: 50px;
 .diagramimagehelp{
     position: relative;
     top: 150px;
-    height: 300px;
+    height: 200px;
     width: 560px;
     z-index: -1;
 }
@@ -239,7 +253,7 @@ top: 50px;
     box-shadow: 0px 8px 16px 0px ;
     color: #540d6e;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     left: 30px;
 
@@ -256,7 +270,7 @@ top: 50px;
     box-shadow: 0px 8px 16px 0px ;
     color: #540d6e;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     left: 30px;
 
@@ -333,7 +347,7 @@ gmp-map{
         text-align: center;
         color: #540d6e;
         animation-name: headerchange;
-        animation-duration: 10s;
+        animation-duration: 20s;
         animation-iteration-count: infinite;
     }
 
@@ -356,7 +370,7 @@ gmp-map{
         border-radius: 20px;
         box-shadow: 0px 8px 16px 0px ;
         animation-name: headerchange;
-        animation-duration: 10s;
+        animation-duration: 20s;
         animation-iteration-count: infinite;
     }
 
@@ -367,14 +381,14 @@ gmp-map{
         height: 200px;
         width: 480px;
         animation-name: headerchange;
-        animation-duration: 10s;
+        animation-duration: 20s;
         margin: auto;
         text-align: center;
         box-shadow: 0px 8px 16px 0px ;
         color: black;
         
         animation-name: headerchange;
-        animation-duration: 10s;
+        animation-duration: 20s;
         animation-iteration-count: infinite;
         left: 10px;
         padding: 10px;
@@ -397,7 +411,7 @@ gmp-map{
     box-shadow: 0px 8px 16px 0px ;
     color: #540d6e;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     
     
@@ -408,7 +422,7 @@ gmp-map{
     color: #540d6e;
     font-size: 24px;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     
 
@@ -421,7 +435,7 @@ gmp-map{
         position: relative;
         height: 300px;
         width: 500px;
-        top: 200px;
+        top: 150px;
         margin: auto;
         left: 5px;
     }
@@ -451,7 +465,7 @@ gmp-map{
     color: #540d6e;
     text-align: center;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     }
 
     .shots h3, p {
@@ -466,7 +480,7 @@ gmp-map{
     color: #540d6e;
     text-align: center;
     animation-name: headerchange;
-    animation-duration: 10s;
+    animation-duration: 20s;
     }
 
     .medication h3, p {
@@ -476,20 +490,15 @@ gmp-map{
     .diagramimg{
     height: 400px;
     width: 480px;
-    box-shadow: 0px 8px 16px 0px ;
-    animation-name: headerchange;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
     margin: auto;
     left: 10px;
 
-    
 
     }
 
     .diagramimg img{
-        height: 350px;
-        width: 450px;
+        height: 360px;
+        width: 470px;
         text-align: center;
         margin: auto;
         position: absolute;
@@ -505,6 +514,27 @@ gmp-map{
         margin: auto;
         left: 10px;
     }
+
+    .information-section{
+        width: 475px;
+        height: 200px;
+        position: relative;
+        top: 100px;
+        margin: auto;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        padding: 20px;
+
+    }
+    .information-section h2{
+        text-align: center;
+    }
+    .info1 span{
+        font-weight:700;
+    }
     .medicalequip{
         position: relative;
         top: 290px;
@@ -517,7 +547,7 @@ gmp-map{
         box-shadow: 0px 8px 16px 0px ;
         color: #540d6e;
         animation-name: headerchange;
-        animation-duration: 10s;
+        animation-duration: 20s;
         animation-iteration-count: infinite;
         left: 5px;
 
@@ -528,13 +558,13 @@ gmp-map{
         height: 200px;
         width: 480px;
         animation-name: headerchange;
-        animation-duration: 10s;
+        animation-duration: 20s;
         margin: auto;
         text-align: center;
         box-shadow: 0px 8px 16px 0px ;
         color: #540d6e;
         animation-name: headerchange;
-        animation-duration: 10s;
+        animation-duration: 20s;
         animation-iteration-count: infinite;
         left: 5px;
 
