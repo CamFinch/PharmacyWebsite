@@ -138,22 +138,27 @@ top: 50px;
 }
 
 .slogan1{
-    animation-name: findprice;
-    animation-duration: 0.5s;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px ;
     margin: auto;
-    text-align: center
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
 }
 .slogan1 h2{
     margin: auto;
     font-size: large;
     border-radius: 20px;
-    border: 2px solid white;
+    font-weight: 500;
     background-color: white;
     width: 400px;
     padding: 10px;
-    animation-name: headerchange;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+
+
+    color: black;
     
 }
 .checkprices{
@@ -183,7 +188,7 @@ top: 50px;
 
 }
 .checkprices a:hover {
-    color: blue;
+    color: #e53e61;
 }
 
 .mainsectionfooter{
@@ -258,6 +263,16 @@ top: 50px;
     left: 30px;
 
 }
+
+.medicalequip h3{
+    position: relative;
+    padding-top: 10px;
+    color: black;
+    font-size: 22px;
+}
+.medicalequip p{
+    font-size: 18px;
+}
 .reviews{
     position: relative;
     top: 180px;
@@ -276,6 +291,12 @@ top: 50px;
 
 }
 
+.reviews h3{
+    position: relative;
+    padding-top: 10px;
+    color: black;
+    font-size: 22px;
+}
 gmp-map{
     width: 400px;
     height: 300px;
@@ -392,10 +413,12 @@ gmp-map{
         animation-iteration-count: infinite;
         left: 10px;
         padding: 10px;
+        padding-bottom: 55px;
         
     }
     .main-section h3, h2{
         color: rgb(0, 0, 0);
+        font-weight: 450;
     }
 
     .checkprices{
@@ -409,7 +432,6 @@ gmp-map{
     left: 90px;
     text-align: center;
     box-shadow: 0px 8px 16px 0px ;
-    color: #540d6e;
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -419,16 +441,17 @@ gmp-map{
 
     .checkprices a {
     text-decoration: none;
-    color: #540d6e;
+    position: relative;
+    color: black;
     font-size: 24px;
-    animation-name: headerchange;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+    font-weight: 500;
+    bottom: 5px;
+   
     
 
     }
     .checkprices a:hover {
-        color: blue;
+        color: #e53e61;
     }
 
     .section-bottom1{

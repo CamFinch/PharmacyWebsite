@@ -1,0 +1,184 @@
+@keyframes headerchange{
+    0% {color: #540d6e;}
+    15% {color:#e53e61;}
+    25% {color: #b22446;}
+    40% {color: #3bb2e1;}
+    55% {color: #25d4dc;}
+    70% {color: #b22446;}
+    80% {color:#e53e61;}
+    100% {color: #540d6e;}
+    
+}
+/*
+#540d6e purple
+#e53e61 redish
+#b22446 redder
+#ffbe58 yellow
+#c98020 yellowdark
+##3bb2e1 blue
+##25d4dc light blue
+
+
+
+*/
+
+@keyframes findprice {
+    0% {transform: scale(0.0);}
+    10% {transform: scale(0.1);}
+    20% {transform: scale(0.2);}
+    30% {transform: scale(0.3);}
+    50% {transform: scale(0.5);}
+    70% {transform: scale(0.7);}
+    90% {transform: scale(0.9);}
+    100% {transform: scale(1.0);}
+    
+
+
+}
+
+.oswald-font1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+html{
+    font-family: "Oswald", sans-serif;
+}
+
+header{
+    
+    position: fixed;
+    height: 70px;
+    width: 560px;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #540d6e;
+    background-color: white;
+    border-radius: 20pc;
+    z-index: 2;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+   
+
+}
+
+
+header h1{
+    position: relative;
+    left: 50px;
+    bottom: 10px;;
+    
+}
+#logoimg{
+    position: fixed;
+    top: 14px;
+    left: 32px;
+
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    bottom: 75px;
+    left: 490px;
+}
+.dropdownbutton{
+    top: 24px;
+    right: 45px;
+    height: 40px;
+    width: 40px;
+    font-size: 23px;
+    border:none;
+    background-color: transparent;
+    
+
+}
+
+.dropdowncontents{
+display: none;
+position: absolute;
+height: 250px;
+width: 200px;
+z-index: 1;
+border: 2px solid black;
+background-color: white;
+right: 0px;
+top: 50px;
+
+
+}
+
+.dropdowncontents a{
+    text-align: center;
+    color: #540d6e;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.show {display:inline-block;}
+
+
+@media screen and (max-width: 550px){
+     header h1{
+        transform: scale(0.65);
+        text-align: center;
+        margin-left: -90px;
+
+    }
+    header{
+        width: 490px;
+        margin: auto;
+        left: 25px;
+    }
+
+  #logoimg{
+    position: fixed;
+    top: 14px;
+    left: 50px;
+
+    }
+    .dropdown{
+    position: relative;
+    display: inline-block;
+    bottom: 75px;
+    left: 420px;
+    }
+    .dropdownbutton{
+        top: 24px;
+        right: 45px;
+        height: 40px;
+        width: 40px;
+        font-size: 23px;
+        border:none;
+        background-color: transparent;
+        
+
+    }
+
+    .dropdowncontents{
+    display: none;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    border: 2px solid black;
+    background-color: white;
+    right: 0px;
+    top: 50px;
+
+
+    }
+
+    .dropdowncontents a{
+        text-align: center;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+
+    .show {display:inline-block;}
+}
