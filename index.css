@@ -18,6 +18,7 @@
 ##3bb2e1 blue
 ##25d4dc light blue
 
+mobile 362px
 
 
 */
@@ -311,9 +312,350 @@ gmp-map{
     height: 200px;
 }
 
+@media screen and (max-width: 362px){
+  
+    header h1{
+        transform: scale(0.4);
+        text-align: center;
+        margin-left: -90px;
+        
+
+    }
+    header{
+        width: 35px;
+        margin: auto;
+        left: 25px;
+    }
+
+  #logoimg{
+    position: fixed;
+    top: 14px;
+    left: 50px;
+
+    }
+    .dropdown{
+    position: relative;
+    display: inline-block;
+    bottom: 75px;
+    left: 420px;
+    }
+    .dropdownbutton{
+        top: 24px;
+        right: 45px;
+        height: 40px;
+        width: 40px;
+        font-size: 23px;
+        border:none;
+        background-color: transparent;
+        
+
+    }
+
+    .dropdowncontents{
+    display: none;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    border: 2px solid black;
+    background-color: white;
+    right: 0px;
+    top: 50px;
 
 
-@media screen and (max-width: 550px){
+    }
+
+    .dropdowncontents a{
+        text-align: center;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+
+    .show {display:inline-block;}
+
+    .image-section{
+        position: relative;
+        top: 100px;
+        height: 290px;
+        width: 500px;
+        z-index: -1;
+    }
+
+    #image2{
+        height: 290px;
+        width: 480px;
+        position: absolute;
+        left: 17px;
+        
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px ;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+    .slogan1{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px ;
+    margin: auto;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+    }
+    .slogan1 h2{
+    margin: auto;
+    font-size: large;
+    border-radius: 20px;
+    font-weight: 500;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+
+
+    color: black;
+    
+    }
+
+    .main-section{
+        position: relative;
+        top: 150px;
+        height: 200px;
+        width: 480px;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: black;
+        border-radius: 20px;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        left: 10px;
+        padding: 10px;
+        padding-bottom: 55px;
+        
+    }
+    .main-section h3, h2{
+        color: rgb(0, 0, 0);
+        font-weight: 450;
+    }
+
+    .checkprices{
+    top: 120px;
+    position: relative;
+    height: 100px;
+    width: 350px;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    border-radius: 20px;
+    left: 90px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+    
+    }
+
+    .checkprices a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    bottom: 5px;
+   
+    
+
+    }
+    .checkprices a:hover {
+        color: #e53e61;
+    }
+
+    .section-bottom1{
+        position: relative;
+        height: 300px;
+        width: 500px;
+        top: 180px;
+        margin: auto;
+        left: 5px;
+    }
+    .mainsectionfooter{
+    
+    position: relative;
+    top: 290px;
+    margin: auto;
+    }
+    .mainsectionfooter h4{
+    font-size: 20px;
+    }
+    .mainsectionfooter p {
+    font-size: large;
+    }
+    .section-bottom1{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 5% 50% 50% 15%;
+    }
+
+    .shots{
+    height: 200px;
+    width: 200px;
+    grid-column: 2;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #540d6e;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    border-radius: 20px;
+    }
+
+    .photopharmacy{
+        height: 300px;
+        width: 500px;
+        position: relative;
+        top: 140px;
+        margin: auto;
+    }
+    .photopharmacy img{
+        height: 290px;
+        width: 510px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        text-align: center;
+        animation-name: headerchange;
+        animation-duration: 20s;
+
+    }
+    .shots h3, p {
+        color: black;
+    }
+
+    .medication{
+    height: 200px;
+    width: 200px;
+    grid-column: 3;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #540d6e;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    border-radius: 20px;
+    }
+
+    .medication h3, p {
+    color: black;
+    }
+
+    .diagramimg{
+    height: 400px;
+    width: 480px;
+    margin: auto;
+    left: 10px;
+
+
+    }
+
+    .diagramimg img{
+        height: 360px;
+        width: 470px;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .diagramimagehelp{
+        position: relative;
+        top: 150px;
+        height: 300px;
+        width: 480px;
+        z-index: -1;
+        margin: auto;
+        left: 10px;
+    }
+
+    .information-section{
+        width: 475px;
+        height: 200px;
+        position: relative;
+        top: 100px;
+        margin: auto;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        padding: 20px;
+        border-radius: 20px;
+
+    }
+    .information-section h2{
+        text-align: center;
+    }
+    .info1 span{
+        font-weight:700;
+    }
+    .medicalequip{
+        position: relative;
+        top: 120px;
+        height: 200px;
+        width: 480px;
+        animation-name: headerchange;
+        animation-duration: 10s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        left: 5px;
+        border-radius: 20px;
+
+    }
+    .reviews{
+        position: relative;
+        top: 150px;
+        height: 200px;
+        width: 480px;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        left: 5px;
+        border-radius: 20px;
+
+    }
+    
+
+    gmp-map{
+    width: 400px;
+    height: 300px;
+    top: 390px;
+    margin: auto;
+    position: relative;
+    }
+    .bottom{
+    height: 200px;
+    }
+
+}
+
+
+@media screen and (max-width: 362px){
     header h1{
         transform: scale(0.65);
         text-align: center;
