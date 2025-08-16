@@ -208,12 +208,33 @@ top: 50px;
         padding: 30px;
     }
 
-    .staffinfo{
-        display: grid;
-        padding: 21px;
+
+    .section1images p {
+        font-size: 17px;
     }
 
-    .staffinfohelp p{
-        padding: 20px;
+    .person1{
+        position: relative;
+        left: 230px;
+        bottom: 132px;
+
+    }
+     .person2{
+        position: relative;
+        left: 230px;
+        bottom: 132px;
+
+    }
+     .person3{
+        position: relative;
+        left: 230px;
+        bottom: 132px;
+
+    }
+     .person4{
+        position: relative;
+        left: 230px;
+        bottom: 132px;
+
     }
 }

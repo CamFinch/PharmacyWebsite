@@ -430,7 +430,7 @@ gmp-map{
         text-align: center;
         box-shadow: 0px 8px 16px 0px ;
         color: black;
-        
+        border-radius: 20px;
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
@@ -481,14 +481,14 @@ gmp-map{
         position: relative;
         height: 300px;
         width: 500px;
-        top: 150px;
+        top: 180px;
         margin: auto;
         left: 5px;
     }
     .mainsectionfooter{
     
     position: relative;
-    top: 330px;
+    top: 290px;
     margin: auto;
     }
     .mainsectionfooter h4{
@@ -512,8 +512,27 @@ gmp-map{
     text-align: center;
     animation-name: headerchange;
     animation-duration: 20s;
+    border-radius: 20px;
     }
 
+    .photopharmacy{
+        height: 300px;
+        width: 500px;
+        position: relative;
+        top: 140px;
+        margin: auto;
+    }
+    .photopharmacy img{
+        height: 290px;
+        width: 510px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        text-align: center;
+        animation-name: headerchange;
+        animation-duration: 20s;
+
+    }
     .shots h3, p {
         color: black;
     }
@@ -527,6 +546,7 @@ gmp-map{
     text-align: center;
     animation-name: headerchange;
     animation-duration: 20s;
+    border-radius: 20px;
     }
 
     .medication h3, p {
@@ -573,6 +593,7 @@ gmp-map{
         animation-duration: 20s;
         animation-iteration-count: infinite;
         padding: 20px;
+        border-radius: 20px;
 
     }
     .information-section h2{
@@ -583,7 +604,7 @@ gmp-map{
     }
     .medicalequip{
         position: relative;
-        top: 290px;
+        top: 120px;
         height: 200px;
         width: 480px;
         animation-name: headerchange;
@@ -596,11 +617,12 @@ gmp-map{
         animation-duration: 20s;
         animation-iteration-count: infinite;
         left: 5px;
+        border-radius: 20px;
 
     }
     .reviews{
         position: relative;
-        top: 300px;
+        top: 150px;
         height: 200px;
         width: 480px;
         animation-name: headerchange;
@@ -613,6 +635,7 @@ gmp-map{
         animation-duration: 20s;
         animation-iteration-count: infinite;
         left: 5px;
+        border-radius: 20px;
 
     }
     
@@ -635,8 +658,8 @@ gmp-map{
 
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {    
+/*Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 550px) {    
 
     header{
     
@@ -813,6 +836,7 @@ gmp-map{
 
 
 }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
