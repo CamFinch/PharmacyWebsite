@@ -1,3 +1,8 @@
+html{
+    width: auto;
+    height: auto;
+}
+
 @keyframes headerchange{
     0% {color: #540d6e;}
     15% {color:#e53e61;}
