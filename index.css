@@ -408,6 +408,8 @@ gmp-map{
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+    position: relative;
+    
 
     }
     .slogan1 h2{
