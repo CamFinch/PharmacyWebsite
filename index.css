@@ -106,9 +106,13 @@ header h1{
 display: none;
 position: absolute;
 height: 250px;
-width: 200px;
+width: 480px;
 z-index: 1;
-border: 2px solid black;
+box-shadow: 0px 8px 16px 0px ;
+animation-name: headerchange;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+
 background-color: white;
 right: 0px;
 top: 50px;
@@ -118,10 +122,7 @@ top: 50px;
 
 .dropdowncontents a{
     text-align: center;
-    color: #540d6e;
-    animation-name: headerchange;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+    
 }
 
 .show {display:inline-block;}
@@ -360,22 +361,29 @@ gmp-map{
     display: none;
     position: absolute;
     height: 200px;
-    width: 200px;
+    width: 480px;
     z-index: 1;
-    border: 2px solid black;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
     background-color: white;
-    right: 0px;
-    top: 50px;
+    right: -20px;
+    top: 57px;
+    border-radius: 20px;
+    
 
 
     }
 
     .dropdowncontents a{
         text-align: center;
-        color: #540d6e;
-        animation-name: headerchange;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
+        color:black;
+        text-decoration: none;
+    }
+
+    .dropdowncontents a:hover{
+        color: #e53e61;
     }
 
     .show {display:inline-block;}
@@ -441,7 +449,7 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 17px;
+        left: 10px;
         padding: 5px;
         padding-bottom: 55px;
         
@@ -518,14 +526,14 @@ gmp-map{
 
     .photopharmacy{
         height: 300px;
-        width: 500px;
+        width: 480px;
         position: relative;
         top: 140px;
-        margin: auto;
+        left: 10px;
     }
     .photopharmacy img{
         height: 270px;
-        width: 490px;
+        width: 480px;
         border-radius: 20px;
         box-shadow: 0px 8px 16px 0px ;
         color: #540d6e;
@@ -595,7 +603,7 @@ gmp-map{
         animation-iteration-count: infinite;
         padding-left: 10px;
         border-radius: 20px;
-        left: 17px;
+        left: 10px;
 
     }
     .information-section h2{
@@ -618,7 +626,7 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 17px;
+        left: 10px;
         border-radius: 20px;
 
     }
@@ -636,7 +644,7 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 17px;
+        left: 10px;
         border-radius: 20px;
 
     }
@@ -645,7 +653,7 @@ gmp-map{
     
     position: relative;
     top: 290px;
-    left: 70px;
+    left: 60px;
     
     }
     .mainsectionfooter h4{
@@ -671,7 +679,7 @@ gmp-map{
     .bottom h3{
         position: relative;
         top: 420px;
-        left: 70px;
+        left: 60px;
 
     }
 
@@ -680,14 +688,14 @@ gmp-map{
         width: 50px;
         position: relative;
         top: 430px;
-        left: 70px;
+        left: 60px;
     }
     #instagram{
         height: 75px;
         width: 75px;
         position: relative;
         top: 443px;
-        left: 75px;
+        left: 65px;
     }
 
     .sectionlast{
