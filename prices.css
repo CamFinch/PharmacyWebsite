@@ -138,7 +138,7 @@ top: 50px;
     }
   #logoimg{
     position: fixed;
-    top: 14px;
+    top: 28px;
     left: 50px;
 
     }
@@ -164,23 +164,35 @@ top: 50px;
     display: none;
     position: absolute;
     height: 200px;
-    width: 200px;
+    width: 470px;
     z-index: 1;
-    border: 2px solid black;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
     background-color: white;
-    right: 0px;
-    top: 50px;
+    right: -20px;
+    top: 57px;
+    border-radius: 20px;
+    
 
 
     }
 
     .dropdowncontents a{
         text-align: center;
-        color: #540d6e;
-        animation-name: headerchange;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
+        color:black;
+        text-decoration: none;
     }
 
+    .dropdowncontents a:hover{
+        color: #e53e61;
+    }
     .show {display:inline-block;}
+
+    .comingsoon{
+        position: relative;
+        top:120px;
+        text-align: center;
+    }
 }

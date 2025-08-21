@@ -646,8 +646,27 @@ gmp-map{
         animation-iteration-count: infinite;
         left: 10px;
         border-radius: 20px;
+        display: flex;
+        gap: 1em;
+        overflow-x: auto;
 
     }
+
+    
+
+
+    .card{
+        flex: 0 0 5em;
+    }
+
+    .card img{
+        height: 80px;
+        width: 460px;
+        position: relative;
+        top: 54px;
+        left: 10px;
+    }
+
 
      .mainsectionfooter{
     
