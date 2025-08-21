@@ -496,7 +496,7 @@ gmp-map{
     
     position: relative;
     top: 290px;
-    margin: auto;
+    left: 10px;
     }
     .mainsectionfooter h4{
     font-size: 20px;
@@ -651,7 +651,7 @@ gmp-map{
     width: 400px;
     height: 300px;
     top: 390px;
-    margin: auto;
+    left: 70px;
     position: relative;
     }
     .bottom{
