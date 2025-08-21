@@ -327,7 +327,7 @@ gmp-map{
 
     }
     header{
-        width: 500px;
+        width: 480px;
         margin: auto;
         left: 25px;
     }
@@ -384,7 +384,7 @@ gmp-map{
         position: relative;
         top: 100px;
         height: 290px;
-        width: 500px;
+        width: 490px;
         z-index: -1;
     }
 
@@ -409,11 +409,12 @@ gmp-map{
     animation-duration: 20s;
     animation-iteration-count: infinite;
     position: relative;
+    right: 5px;
     
 
     }
     .slogan1 h2{
-    margin: auto;
+    
     font-size: large;
     border-radius: 20px;
     font-weight: 500;
@@ -492,11 +493,16 @@ gmp-map{
         margin: auto;
         left: 5px;
     }
+
+    footer{
+        text-align: center;
+        position: relative;
+    }
     .mainsectionfooter{
     
     position: relative;
     top: 290px;
-    left: 10px;
+    
     }
     .mainsectionfooter h4{
     font-size: 20px;
@@ -651,11 +657,18 @@ gmp-map{
     width: 400px;
     height: 300px;
     top: 390px;
-    left: 70px;
+    left: 0px;
     position: relative;
     }
     .bottom{
     height: 200px;
+    }
+
+    #facebook{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 500px;
     }
 
 }
