@@ -404,7 +404,6 @@ gmp-map{
     width: 400px;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px ;
-    text-align: center;
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -498,18 +497,7 @@ gmp-map{
         text-align: center;
         position: relative;
     }
-    .mainsectionfooter{
-    
-    position: relative;
-    top: 290px;
-    
-    }
-    .mainsectionfooter h4{
-    font-size: 20px;
-    }
-    .mainsectionfooter p {
-    font-size: large;
-    }
+   
     .section-bottom1{
     margin: auto;
     display: grid;
@@ -651,6 +639,19 @@ gmp-map{
         border-radius: 20px;
 
     }
+
+     .mainsectionfooter{
+    
+    position: relative;
+    top: 290px;
+    
+    }
+    .mainsectionfooter h4{
+    font-size: 20px;
+    }
+    .mainsectionfooter p {
+    font-size: large;
+    }
     
 
     gmp-map{
@@ -667,6 +668,12 @@ gmp-map{
     #facebook{
         height: 50px;
         width: 50px;
+        position: relative;
+        top: 500px;
+    }
+    #instagram{
+        height: 70px;
+        width: 70px;
         position: relative;
         top: 500px;
     }
