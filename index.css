@@ -129,13 +129,13 @@ top: 50px;
     position: relative;
     top: 100px;
     height: 290px;
-    width: 560px;
+    width: 480px;
     z-index: -1;
 }
 
 #image2{
     height: 300px;
-    width: 560px;
+    width: 480px;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px ;
     animation-name: headerchange;
@@ -441,8 +441,8 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 0px;
-        padding: 10px;
+        left: 17px;
+        padding: 5px;
         padding-bottom: 55px;
         
     }
@@ -587,15 +587,15 @@ gmp-map{
         height: 200px;
         position: relative;
         top: 100px;
-        margin: auto;
+        
         box-shadow: 0px 8px 16px 0px ;
         color: #540d6e;
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        padding: 20px;
+        padding-left: 10px;
         border-radius: 20px;
-        left: 0px;
+        left: 17px;
 
     }
     .information-section h2{
@@ -618,7 +618,7 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 0px;
+        left: 17px;
         border-radius: 20px;
 
     }
@@ -636,7 +636,7 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 0px;
+        left: 17px;
         border-radius: 20px;
 
     }
@@ -645,7 +645,7 @@ gmp-map{
     
     position: relative;
     top: 290px;
-    left: 45px;
+    left: 70px;
     
     }
     .mainsectionfooter h4{
@@ -671,7 +671,7 @@ gmp-map{
     .bottom h3{
         position: relative;
         top: 420px;
-        left: 50px;
+        left: 70px;
 
     }
 
@@ -680,14 +680,14 @@ gmp-map{
         width: 50px;
         position: relative;
         top: 430px;
-        left: 50px;
+        left: 70px;
     }
     #instagram{
         height: 75px;
         width: 75px;
         position: relative;
         top: 443px;
-        left: 55px;
+        left: 75px;
     }
 
     .sectionlast{
@@ -969,7 +969,7 @@ gmp-map{
     }
 
     .information-section{
-        width: 475px;
+        width: 480px;
         height: 200px;
         position: relative;
         top: 100px;

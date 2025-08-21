@@ -45,6 +45,7 @@
 
 html{
     font-family: "Oswald", sans-serif;
+    width: 550px;
 }
 
 header{
@@ -133,6 +134,10 @@ top: 50px;
         width: 490px;
         margin: auto;
         left: 25px;
+    }
+
+    html{
+        width: 550px;
     }
 
   #logoimg{
