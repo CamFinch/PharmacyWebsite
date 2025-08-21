@@ -497,8 +497,8 @@ gmp-map{
         height: 300px;
         width: 500px;
         top: 180px;
-        margin: auto;
-        left: 5px;
+    
+
     }
 
     footer{
@@ -507,7 +507,7 @@ gmp-map{
     }
    
     .section-bottom1{
-    margin: auto;
+    position: relative;
     display: grid;
     grid-template-columns: 5% 50% 50% 15%;
     }
