@@ -133,7 +133,9 @@ top: 50px;
         margin: auto;
         left: 25px;
     }
-
+    html{
+        width: 550px;
+    }
   #logoimg{
     position: fixed;
     top: 14px;
