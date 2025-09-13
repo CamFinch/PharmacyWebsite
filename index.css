@@ -656,8 +656,8 @@ gmp-map{
 
     .cardcontainer{
         display: flex;
-        overflow: hidden;
         gap: 1em;
+        overflow: hidden;
         height: 200px;
 
 
