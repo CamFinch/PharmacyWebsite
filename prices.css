@@ -47,6 +47,7 @@ html{
     font-family: "Oswald", sans-serif;
 }
 
+/*
 header{
     
     position: fixed;
@@ -63,7 +64,7 @@ header{
    
 
 }
-
+*/
 
 header h1{
     position: relative;
@@ -129,10 +130,21 @@ top: 50px;
 
     }
     header{
-        width: 490px;
-        margin: auto;
-        left: 25px;
-    }
+    
+    position: fixed;
+    height: 70px;
+    width: 490px;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #540d6e;
+    background-color: white;
+    border-radius: 20pc;
+    z-index: 2;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+   
+
+}
     html{
         width: 550px;
     }
