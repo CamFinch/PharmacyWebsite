@@ -350,6 +350,10 @@ gmp-map{
     left: 50px;
 
     }
+
+    .seal{
+        transform: scale(0.7);
+    }
     .dropdown{
     position: relative;
     display: inline-block;
