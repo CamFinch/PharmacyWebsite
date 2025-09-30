@@ -69,10 +69,14 @@ header{
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    margin: auto;
+    left: 50%;              /* push halfway across screen */
+    transform: translateX(-50%);
+    
    
 
 }
+
+
 
 
 header h1{
@@ -83,8 +87,8 @@ header h1{
 }
 #logoimg{
     position: fixed;
-    top: 14px;
-    left: 32px;
+    top: 4px;
+    left: 22px;
 
 }
 
@@ -159,11 +163,19 @@ top: 50px;
     width: 400px;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px ;
-    
     text-align: center;
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+    
+    
+ 
+
+}
+
+.sloganplace{
+    margin: 0 auto;
+
 
 }
 .slogan1 h2{
@@ -184,9 +196,7 @@ top: 50px;
     position: relative;
     height: 100px;
     width: 400px;
-    
     border-radius: 20px;
-    left: 80px;
     text-align: center;
     
     
@@ -278,7 +288,7 @@ top: 50px;
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    left: 30px;
+   
 
 }
 
@@ -305,7 +315,7 @@ top: 50px;
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    left: 30px;
+
 
 }
 
@@ -321,12 +331,13 @@ gmp-map{
     top: 200px;
     
     position: relative;
-    left: 70px;
+    
     
 }
 
 .bottom{
     height: 200px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 550px){
@@ -338,16 +349,19 @@ gmp-map{
         
 
     }
+    .headerplacement{
+        margin: 0 auto;
+    }
     header{
         width: 470px;
-        margin: auto;
-        left: 25px;
+        margin: 0 auto;
+        
     }
 
   #logoimg{
     position: fixed;
-    top: 16px;
-    left: 50px;
+    top: 8px;
+    left: 30px;
 
     }
 
@@ -358,7 +372,7 @@ gmp-map{
     position: relative;
     display: inline-block;
     bottom: 75px;
-    left: 420px;
+    left: 390px;
     }
     .dropdownbutton{
         top: 24px;
@@ -409,19 +423,21 @@ gmp-map{
         height: 290px;
         width: 470px;
         z-index: -1;
+        margin: 0 auto;
     }
 
     #image2{
         height: 290px;
         width: 470px;
         position: absolute;
-        left: 17px;
+        
         
         border-radius: 20px;
         box-shadow: 0px 8px 16px 0px ;
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
+        
     }
     .slogan1{
     width: 400px;
@@ -430,11 +446,14 @@ gmp-map{
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    position: relative;
-    left: 43px;
+    margin: 0 auto;
     
-
+    
+    
+    
+    
     }
+ 
     .slogan1 h2{
     
     font-size: large;
@@ -443,8 +462,6 @@ gmp-map{
     background-color: white;
     width: 400px;
     padding: 10px;
-
-
     color: black;
     
     }
@@ -464,7 +481,7 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 10px;
+        margin: 0 auto;
         padding: 5px;
         padding-bottom: 55px;
         
@@ -475,14 +492,13 @@ gmp-map{
     }
 
     .checkprices{
-    top: 85px;
-    position: relative;
+    top: 90px;
+    margin: 0 auto;
     height: 100px;
     width: 350px;
     animation-name: headerchange;
     animation-duration: 10s;
     border-radius: 20px;
-    left: 90px;
     text-align: center;
     box-shadow: 0px 8px 16px 0px ;
     animation-name: headerchange;
@@ -618,7 +634,7 @@ gmp-map{
         animation-iteration-count: infinite;
         padding-left: 10px;
         border-radius: 20px;
-        left: 10px;
+        margin: 0 auto;
 
     }
 
@@ -638,15 +654,14 @@ gmp-map{
         width: 470px;
         animation-name: headerchange;
         animation-duration: 20s;
-        margin: auto;
         text-align: center;
         box-shadow: 0px 8px 16px 0px ;
         color: #540d6e;
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 10px;
         border-radius: 20px;
+        margin: 0 auto;
 
     }
     .reviews{
@@ -663,8 +678,8 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 10px;
         border-radius: 20px;
+        margin: 0 auto;
         
 
     }
@@ -736,7 +751,7 @@ gmp-map{
     
     position: relative;
     top: 290px;
-    left: 50px;
+    margin: 0 auto;
     
     }
     .mainsectionfooter h4{
@@ -751,7 +766,7 @@ gmp-map{
     width: 400px;
     height: 300px;
     top: 390px;
-    left: 50px;
+    margin: 0 auto;
     position: relative;
     }
     .bottom{
@@ -762,7 +777,7 @@ gmp-map{
     .bottom h3{
         position: relative;
         top: 420px;
-        left: 50px;
+        
 
     }
 
@@ -771,14 +786,14 @@ gmp-map{
         width: 50px;
         position: relative;
         top: 430px;
-        left: 50px;
+        
     }
     #instagram{
         height: 75px;
         width: 75px;
         position: relative;
         top: 443px;
-        left: 55px;
+        left: 20px;
     }
 
     .sectionlast{
