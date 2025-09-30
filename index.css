@@ -167,17 +167,10 @@ top: 50px;
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    
-    
- 
 
 }
 
-.sloganplace{
-    margin: 0 auto;
 
-
-}
 .slogan1 h2{
     
     font-size: large;
@@ -423,7 +416,8 @@ gmp-map{
         height: 290px;
         width: 470px;
         z-index: -1;
-        margin: 0 auto;
+        left: 50%;              /* push halfway across screen */
+        transform: translateX(-50%);
     }
 
     #image2{
@@ -439,6 +433,11 @@ gmp-map{
         animation-iteration-count: infinite;
         
     }
+
+    .sloganplace{
+        
+    
+    }
     .slogan1{
     width: 400px;
     border-radius: 20px;
@@ -447,9 +446,6 @@ gmp-map{
     animation-duration: 20s;
     animation-iteration-count: infinite;
     margin: 0 auto;
-    
-    
-    
     
     
     }
@@ -493,7 +489,8 @@ gmp-map{
 
     .checkprices{
     top: 90px;
-    margin: 0 auto;
+    left: 50%;              /* push halfway across screen */
+    transform: translateX(-50%);
     height: 100px;
     width: 350px;
     animation-name: headerchange;
