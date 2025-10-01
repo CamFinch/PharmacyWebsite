@@ -158,6 +158,9 @@ top: 50px;
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+        left: 50%;              /* push halfway across screen */
+    transform: translateX(-50%);
+
 }
 
 .slogan1{
@@ -168,6 +171,8 @@ top: 50px;
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+    left: 50%;              /* push halfway across screen */
+    transform: translateX(-50%);
 
 }
 
@@ -431,6 +436,8 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
+        left: 50%;              /* push halfway across screen */
+        transform: translateX(-50%);
         
     }
 
