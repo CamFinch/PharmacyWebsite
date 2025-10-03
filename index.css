@@ -454,6 +454,8 @@ gmp-map{
         z-index: -2;
         left: 50%;              /* push halfway across screen */
         transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
     }
 
     #image2{
@@ -465,16 +467,12 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 50%;              /* push halfway across screen */
-        transform: translateX(-50%);
-        margin: 0 auto;
+
+        
         
     }
 
-    .sloganplace{
-        
-    
-    }
+
     .slogan1{
     position: relative;
     width: 400px;
