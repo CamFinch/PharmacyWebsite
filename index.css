@@ -14,7 +14,14 @@ html{
     100% {color: #540d6e;}
     
 }
-
+@keyframes reviewslide{
+    0%{background-image: url('review1.png');}
+    25%{background-image: url('review2.png');}
+    50%{background-image: url('review1.png');}
+    75%{background-image: url('review2.png');}
+    100%{background-image: url('review1.png');}
+}
+/*
 @keyframes reviewslide{
     0%{transform: translateX(-100%);}
     25%{transform: translateX(-200%);}
@@ -22,7 +29,9 @@ html{
     75%{transform: translateX(-80%);}
     100%{transform: translateX(-100%);}
 }
-/*
+
+
+
 #540d6e purple
 #e53e61 redish
 #b22446 redder
@@ -347,7 +356,7 @@ gmp-map{
     margin: 0 auto;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 480px){
   
     header h1{
         transform: scale(0.5);
