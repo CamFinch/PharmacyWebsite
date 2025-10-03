@@ -79,7 +79,7 @@ mobile 362px
 
 html{
     font-family: "Oswald", sans-serif;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     margin: 0 auto;
 }
 
@@ -467,6 +467,7 @@ gmp-map{
         animation-iteration-count: infinite;
         left: 50%;              /* push halfway across screen */
         transform: translateX(-50%);
+        margin: 0 auto;
         
     }
 
