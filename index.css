@@ -14,6 +14,14 @@ html{
     100% {color: #540d6e;}
     
 }
+
+@keyframes reviewslide{
+    0%{transform: translateX(-100%);}
+    25%{transform: translateX(-200%);}
+    50%{transform: translateX(-60%);}
+    75%{transform: translateX(-80%);}
+    100%{transform: translateX(-100%);}
+}
 /*
 #540d6e purple
 #e53e61 redish
@@ -53,7 +61,7 @@ mobile 362px
 
 html{
     font-family: "Oswald", sans-serif;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     margin: 0 auto;
 }
 
@@ -695,6 +703,8 @@ gmp-map{
         gap: 1em;
         overflow: hidden;
         height: 200px;
+        animation-name: reviewslide;
+        animation-duration: 20s;
 
 
     }
