@@ -347,6 +347,492 @@ gmp-map{
     margin: 0 auto;
 }
 
+@media screen and (max-width: 320px){
+  
+    header h1{
+        transform: scale(0.5);
+        text-align: center;
+        margin-left: -90px;
+        
+
+    }
+    .headerplacement{
+        margin: 0 auto;
+    }
+    header{
+        width: 280px;
+        margin: 0 auto;
+        
+    }
+
+  #logoimg{
+    position: fixed;
+    top: 8px;
+    left: 30px;
+
+    }
+
+    .seal{
+        transform: scale(0.7);
+    }
+    .dropdown{
+    position: relative;
+    display: inline-block;
+    bottom: 75px;
+    left: 280px;
+    }
+    .dropdownbutton{
+        top: 24px;
+        right: 45px;
+        height: 40px;
+        width: 40px;
+        font-size: 23px;
+        border:none;
+        background-color: transparent;
+        
+
+    }
+
+    .dropdowncontents{
+    display: none;
+    position: fixed;
+    height: 200px;
+    width: 280px;
+    z-index: 2;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-color: white;
+    top: 71px;
+    border-radius: 20px;
+    left: 50%;           
+    transform: translateX(-50%);
+    
+
+
+    }
+
+    .dropdowncontents a{
+        text-align: center;
+        color:black;
+        text-decoration: none;
+    }
+
+    .dropdowncontents a:hover{
+        color: #e53e61;
+    }
+
+    .show {display:inline-block;}
+
+    .image-section{
+        position: relative;
+        top: 100px;
+        height: 190px;
+        width: 280px;
+        z-index: -2;
+        left: 50%;              /* push halfway across screen */
+        transform: translateX(-50%);
+    }
+
+    #image2{
+        height: 290px;
+        width: 280px;
+        position: relative;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px ;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        left: 50%;              /* push halfway across screen */
+        transform: translateX(-50%);
+        
+    }
+
+    .sloganplace{
+        
+    
+    }
+    .slogan1{
+    position: relative;
+    width: 180px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    left: 50%;           
+    transform: translateX(-50%);
+    
+    
+    }
+ 
+    .slogan1 h2{
+    
+    font-size: large;
+    border-radius: 20px;
+    font-weight: 500;
+    background-color: white;
+    width: 180px;
+    padding: 10px;
+    color: black;
+    
+    }
+
+    .main-section{
+        position: relative;
+        top: 150px;
+        height: 130px;
+        width: 280px;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: black;
+        border-radius: 20px;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        margin: 0 auto;
+        padding: 5px;
+        padding-bottom: 55px;
+        
+    }
+    .main-section h3, h2{
+        color: rgb(0, 0, 0);
+        font-weight: 450;
+    }
+
+    .checkprices{
+    top: 90px;
+    left: 50%;              /* push halfway across screen */
+    transform: translateX(-50%);
+    height: 100px;
+    width: 350px;
+    animation-name: headerchange;
+    animation-duration: 10s;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+    
+    }
+
+    .checkprices a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    bottom: 5px;
+   
+    
+
+    }
+    .checkprices a:hover {
+        color: #e53e61;
+    }
+
+    .section-bottom1{
+        position: relative;
+        height: 300px;
+        width: 500px;
+        top: 180px;
+    
+
+    }
+
+    footer{
+        text-align: center;
+        position: relative;
+    }
+   
+    .section-bottom1{
+    position: relative;
+    display: grid;
+    grid-template-columns: 5% 50% 50% 15%;
+    }
+
+    .shots{
+    height: 200px;
+    width: 200px;
+    grid-column: 2;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #540d6e;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    border-radius: 20px;
+    }
+
+    .photopharmacy{
+        height: 300px;
+        width: 470px;
+        position: relative;
+        top: 140px;
+        margin: 0 auto;
+    }
+    .photopharmacy img{
+        height: 270px;
+        width: 470px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        text-align: center;
+        animation-name: headerchange;
+        animation-duration: 20s;
+
+    }
+    .shots h3, p {
+        color: black;
+    }
+
+    .medication{
+    height: 200px;
+    width: 200px;
+    grid-column: 3;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #540d6e;
+    text-align: center;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    border-radius: 20px;
+    }
+
+    .medication h3, p {
+    color: black;
+    }
+
+    .diagramimg{
+    height: 400px;
+    width: 470px;
+    margin: auto;
+    left: 10px;
+
+
+    }
+
+    .diagramimg img{
+        height: 360px;
+        width: 470px;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .diagramimagehelp{
+        position: relative;
+        top: 150px;
+        height: 300px;
+        width: 480px;
+        z-index: -1;
+        margin: auto;
+        left: 10px;
+    }
+
+    .information-section{
+        width: 470px;
+        height: 200px;
+        position: relative;
+        top: 100px;
+        
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        padding-left: 10px;
+        border-radius: 20px;
+        margin: 0 auto;
+
+    }
+
+    .information-section p{
+        text-align: center;
+    }
+    .information-section h2{
+        text-align: center;
+    }
+    .info1 span{
+        font-weight:700;
+    }
+    .medicalequip{
+        position: relative;
+        top: 120px;
+        height: 200px;
+        width: 470px;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        border-radius: 20px;
+        margin: 0 auto;
+
+    }
+    .reviews{
+        position: relative;
+        top: 150px;
+        height: 200px;
+        width: 470px;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        margin: auto;
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px ;
+        color: #540d6e;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        border-radius: 20px;
+        margin: 0 auto;
+        
+
+    }
+
+    .cardcontainer{
+        display: flex;
+        gap: 1em;
+        overflow: hidden;
+        height: 200px;
+        animation-name: reviewslide;
+        animation-duration: 20s;
+
+
+    }
+
+    
+    .reviews button{
+        border: none;
+        background: white;
+        z-index: 1;
+    }
+
+    .reviews button:hover{
+        box-shadow: 0px 8px 16px 0px ;
+        animation-name: headerchange;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+
+    .backbtn{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        font-size: 10px;
+        position: absolute;
+        top: 140px;
+        left: 150px;
+        cursor: pointer;
+        
+    }
+
+    
+
+    .nextbtn{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        font-size: 10px;
+        position: absolute;
+        top: 140px;
+        left: 250px;
+        cursor: pointer;
+    }
+    
+
+
+    .card{
+        flex: 0 0 5em;
+    }
+
+    .card img{
+        height: 80px;
+        width: 460px;
+        position: relative;
+        top: 54px;
+        left: 10px;
+    }
+
+
+     .mainsectionfooter{
+    
+    position: relative;
+    top: 290px;
+    margin: 0 auto;
+    
+    }
+    .mainsectionfooter h4{
+    font-size: 20px;
+    }
+    .mainsectionfooter p {
+    font-size: large;
+    }
+    
+
+    gmp-map{
+    width: 400px;
+    height: 300px;
+    top: 390px;
+    margin: 0 auto;
+    position: relative;
+    }
+    .bottom{
+    height: 200px;
+    text-align: center;
+    }
+
+    .bottom h3{
+        position: relative;
+        top: 420px;
+        
+
+    }
+
+    #facebook{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 430px;
+        
+    }
+    #instagram{
+        height: 75px;
+        width: 75px;
+        position: relative;
+        top: 443px;
+        left: 20px;
+    }
+    .copyrightplacment{
+        margin: 0 auto;
+    }
+    .copyright{
+        position: relative;
+        top: 100px;
+    }
+
+    .copyright h3{
+        font-size: 15px;
+    }
+
+    .sectionlast{
+        position: relative;
+        top: 600px;
+    }
+    .sectionlast h3{
+        color:transparent
+    }
+}
+
+
 @media screen and (max-width: 550px){
   
     header h1{
