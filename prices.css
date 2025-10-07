@@ -173,6 +173,15 @@ top: 50px;
 
 }
 
+iframe{
+    position: absolute;
+    left: 50%;              /* push halfway across screen */
+    transform: translateX(-50%);
+    top: 140px;
+    height: 600px;
+    width: 400px;
+}
+
   #logoimg{
     position: fixed;
     top: 28px;
