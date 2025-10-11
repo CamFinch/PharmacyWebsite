@@ -563,7 +563,7 @@ gmp-map{
         position: relative;
         height: 300px;
         width: 500px;
-        top: 180px;
+        top: 340px;
     
 
     }
@@ -595,7 +595,7 @@ gmp-map{
         height: 300px;
         width: 470px;
         position: relative;
-        top: 140px;
+        top: 320px;
         margin: 0 auto;
     }
     .photopharmacy img{
@@ -630,17 +630,17 @@ gmp-map{
     }
 
     .diagramimg{
-    height: 400px;
-    width: 470px;
-    margin: auto;
-    left: 10px;
+    height: 420px;
+    width: 450px;
+    margin: 0 auto;
+    
 
 
     }
 
     .diagramimg img{
-        height: 360px;
-        width: 470px;
+        height: 420px;
+        width: 450px;
         text-align: center;
         margin: auto;
         position: absolute;
@@ -649,20 +649,18 @@ gmp-map{
 
     .diagramimagehelp{
         position: relative;
-        top: 150px;
+        top: 280px;
         height: 300px;
         width: 480px;
         z-index: -1;
-        margin: auto;
-        left: 10px;
+        margin: 0 auto;
     }
 
     .information-section{
         width: 470px;
-        height: 200px;
+        height: 220px;
         position: relative;
-        top: 100px;
-        
+        top: 280px;
         box-shadow: 0px 8px 16px 0px ;
         color: #540d6e;
         animation-name: headerchange;
@@ -675,17 +673,19 @@ gmp-map{
     }
 
     .information-section p{
+        top: 5px;
         text-align: center;
     }
     .information-section h2{
         text-align: center;
+        padding-top: 10px;
     }
     .info1 span{
         font-weight:700;
     }
     .medicalequip{
         position: relative;
-        top: 120px;
+        top: 285px;
         height: 200px;
         width: 470px;
         animation-name: headerchange;
@@ -702,7 +702,7 @@ gmp-map{
     }
     .reviews{
         position: relative;
-        top: 150px;
+        top: 330px;
         height: 200px;
         width: 470px;
         animation-name: headerchange;
@@ -790,7 +790,7 @@ gmp-map{
      .mainsectionfooter{
     
     position: relative;
-    top: 290px;
+    top: 390px;
     margin: 0 auto;
     
     }
@@ -805,7 +805,7 @@ gmp-map{
     gmp-map{
     width: 400px;
     height: 300px;
-    top: 390px;
+    top: 430px;
     margin: 0 auto;
     position: relative;
     }
@@ -816,7 +816,7 @@ gmp-map{
 
     .bottom h3{
         position: relative;
-        top: 420px;
+        top: 440px;
         
 
     }
@@ -838,9 +838,12 @@ gmp-map{
     .copyrightplacment{
         margin: 0 auto;
     }
-    .copyright{
+
+    .copyright h3{
+        font-weight: 200;
+        font-size: 20px;
+        top: 550px;
         position: relative;
-        top: 100px;
     }
 
     .copyright h3{
