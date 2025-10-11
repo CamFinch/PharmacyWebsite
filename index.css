@@ -368,6 +368,7 @@ gmp-map{
 @media screen and (max-width: 550px){
     html{
         overflow-x: hidden;
+
     }
     header h1{
         transform: scale(0.5);
@@ -579,7 +580,7 @@ gmp-map{
     top: 360px;
     position: relative;
     display: grid;
-    grid-template-columns: 12% 42% 20% 1%;
+    grid-template-columns: 1% 40% 20% 1%;
     }
 
     .shots{
