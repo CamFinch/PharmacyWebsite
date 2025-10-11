@@ -265,3 +265,140 @@ top: 50px;
 
     }
 }
+
+@media screen and (min-width: 500px){
+        header h1{
+        transform: scale(0.65);
+        text-align: center;
+        margin-left: -90px;
+        top: -10px;
+
+    }
+    header{
+        width: 490px;
+        margin: auto;
+        left: 25px;
+    }
+
+    html{
+        width: 550px;
+    }
+
+  #logoimg{
+    position: fixed;
+    top: 28px;
+    left: 50px;
+
+    }
+      .seal{
+        transform: scale(0.7);
+    }
+
+    .dropdown{
+    position: relative;
+    display: inline-block;
+    bottom: 75px;
+    left: 420px;
+    }
+    .dropdownbutton{
+        top: 1px;
+        position: relative;
+        right: 5px;
+        height: 40px;
+        width: 40px;
+        font-size: 23px;
+        border:none;
+        background-color: transparent;
+        
+
+    }
+
+    .dropdowncontents{
+    display: none;
+    position: absolute;
+    height: 200px;
+    width: 480px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-color: white;
+    right: -25px;
+    top: 57px;
+    border-radius: 20px;
+    
+
+
+    }
+
+    .dropdowncontents a{
+        text-align: center;
+        color:black;
+        text-decoration: none;
+    }
+
+    .dropdowncontents a:hover{
+        color: #e53e61;
+    }
+
+    .show {display:inline-block;}
+
+    .section1{
+        margin-left: -30px;
+        position: relative;
+        top: 130px;
+        width: 250px;
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    .section1header {
+        text-align: center;
+        position: relative;
+        top: 120px;
+
+    }
+
+    .section1images{
+        display:grid;
+        
+        margin: 20px;
+    }
+    .section1images img{
+        padding: 30px;
+        
+    }
+
+
+    .section1images p {
+        font-size: 17px;
+    }
+
+    .person1{
+        position: relative;
+        left: 230px;
+        bottom: 132px;
+
+    }
+
+
+     .person2{
+        position: relative;
+        left: 230px;
+        bottom: 132px;
+
+    }
+     .person3{
+        position: relative;
+        left: 230px;
+        bottom: 132px;
+
+    }
+     .person4{
+        position: relative;
+        left: 230px;
+        bottom: 132px;
+
+    }
+}

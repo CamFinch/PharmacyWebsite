@@ -566,7 +566,7 @@ gmp-map{
     .section-bottom1{
         position: relative;
         height: 300px;
-        width: 400px;
+        width: 380px;
         top: 340px;
         margin: 0 auto;
     
@@ -582,7 +582,7 @@ gmp-map{
     top: 360px;
     position: relative;
     display: grid;
-    grid-template-columns: 1% 40% 20% 1%;
+    grid-template-columns: 2% 51% 20% 1%;
     }
 
     .shots{

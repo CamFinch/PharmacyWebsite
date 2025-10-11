@@ -142,10 +142,8 @@ top: 50px;
 
 .dropdowncontents a{
     text-align: center;
-    color: #540d6e;
-    animation-name: headerchange;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+    color: black;
+    
 }
 
 .show {display:inline-block;}
@@ -412,4 +410,128 @@ iframe{
         top: 943px;
         left: 0px;
     }
+}
+
+@media screen and (min-width: 768px){
+    header h1{
+    transform: scale(1);
+    text-align: center;
+    margin-left: -90px;
+
+    }
+    header{
+    
+    position: fixed;
+    height: 70px;
+    width: 730px;
+    box-shadow: 0px 8px 16px 0px ;
+    color: #540d6e;
+    background-color: white;
+    border-radius: 20pc;
+    z-index: 2;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+   
+
+}
+
+    #logoimg{
+    position: fixed;
+    top: 10px;
+    left: 40px;
+
+    }
+
+
+  .seal{
+        transform: scale(0.7);
+    }
+    .dropdown{
+    position: relative;
+    display: inline-block;
+    bottom: 75px;
+    left: 620px;
+    }
+    .dropdownbutton{
+        top: 24px;
+        right: 35px;
+        height: 40px;
+        width: 40px;
+        font-size: 23px;
+        border:none;
+        background-color: transparent;
+        
+
+    }
+
+    .dropdowncontents{
+    display: none;
+    position: fixed;
+    height: 200px;
+    width: 730px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px ;
+    animation-name: headerchange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-color: white;
+    right: -20px;
+    top: 73px;
+    border-radius: 20px;
+    left: 50%;           
+    transform: translateX(-50%);
+    border: none;
+    
+
+
+    }
+
+    .dropdowncontents a{
+        text-align: center;
+        color:black;
+        text-decoration: none;
+    }
+
+    .dropdowncontents a:hover{
+        color: #e53e61;
+    }
+    .show {display:inline-block;}
+
+    .bottom{
+    height: 200px;
+    text-align: center;
+    }
+
+    .bottom h3{
+        position: relative;
+        top: 920px;
+        text-align: center;
+
+    }
+    iframe{
+    position: absolute;
+    left: 50%;              /* push halfway across screen */
+    transform: translateX(-50%);
+    top: 140px;
+    height: 700px;
+    width: 600px;
+    border: none;
+    }
+
+    #facebook{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 930px;
+    left: 0px;
+    }
+    #instagram{
+        height: 75px;
+        width: 75px;
+        position: relative;
+        top: 943px;
+        left: 0px;
+    }
+
 }
