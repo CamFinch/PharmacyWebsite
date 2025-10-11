@@ -1,6 +1,6 @@
 html{
     
-    height: auto;
+    overflow-x: hidden;
 }
 
 @keyframes headerchange{
