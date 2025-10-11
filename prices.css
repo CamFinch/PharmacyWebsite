@@ -257,7 +257,7 @@ iframe{
     .bottom h3{
         position: relative;
         top: 920px;
-        left: 50px;
+        text-align: center;
 
     }
 
@@ -266,14 +266,14 @@ iframe{
         width: 50px;
         position: relative;
         top: 930px;
-        left: 50px;
+        left: 0px;
     }
     #instagram{
         height: 75px;
         width: 75px;
         position: relative;
         top: 943px;
-        left: 55px;
+        left: 0px;
     }
 
     .sectionlast{
