@@ -368,8 +368,8 @@ gmp-map{
 
 @media screen and (max-width: 550px){
     html{
-        overflow-x: hidden;
-        max-width: 400px;
+        max-width: 100%;
+        overflow: hidden;
 
     }
     header h1{
