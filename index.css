@@ -468,6 +468,8 @@ gmp-map{
         animation-duration: 20s;
         animation-iteration-count: infinite;
         z-index: -2;
+        left: 50%;              /* push halfway across screen */
+        transform: translateX(-50%);
 
         
         
