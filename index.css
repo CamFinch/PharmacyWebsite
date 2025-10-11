@@ -1,5 +1,5 @@
 html{
-    width: 550;
+    
     height: auto;
 }
 
@@ -81,7 +81,7 @@ html{
     font-family: "Oswald", sans-serif;
     overflow-x: hidden;
     margin: 0 auto;
-    max-width: 400px;
+    
 }
 
 header{
@@ -369,6 +369,7 @@ gmp-map{
 @media screen and (max-width: 550px){
     html{
         overflow-x: hidden;
+        max-width: 400px;
 
     }
     header h1{
