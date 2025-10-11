@@ -366,7 +366,9 @@ gmp-map{
 
 
 @media screen and (max-width: 550px){
-  
+    html{
+        overflow-x: hidden;
+    }
     header h1{
         transform: scale(0.5);
         text-align: center;
