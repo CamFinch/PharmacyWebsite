@@ -346,9 +346,9 @@ iframe{
 
     .dropdowncontents{
     display: none;
-    position: absolute;
+    position: fixed;
     height: 200px;
-    width: 470px;
+    width: 530px;
     z-index: 1;
     box-shadow: 0px 8px 16px 0px ;
     animation-name: headerchange;
@@ -356,8 +356,11 @@ iframe{
     animation-iteration-count: infinite;
     background-color: white;
     right: -20px;
-    top: 57px;
+    top: 73px;
     border-radius: 20px;
+    left: 50%;           
+    transform: translateX(-50%);
+    border: none;
     
 
 

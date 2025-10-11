@@ -1,5 +1,5 @@
 html{
-    width: auto;
+    width: 550;
     height: auto;
 }
 
@@ -87,7 +87,6 @@ header{
     
     position: fixed;
     height: 70px;
-    width: 560px;
     box-shadow: 0px 8px 16px 0px ;
     color: #540d6e;
     background-color: white;
@@ -146,18 +145,16 @@ header h1{
 
 .dropdowncontents{
 display: none;
-position: absolute;
+position: fixed;
 height: 250px;
-width: 480px;
 z-index: 1;
 box-shadow: 0px 8px 16px 0px ;
 animation-name: headerchange;
 animation-duration: 20s;
 animation-iteration-count: infinite;
-
 background-color: white;
-right: 0px;
 top: 50px;
+
 
 
 }
@@ -566,6 +563,7 @@ gmp-map{
         height: 300px;
         width: 500px;
         top: 340px;
+        margin: 0 auto;
     
 
     }
@@ -905,7 +903,6 @@ gmp-map{
     .dropdown{
     position: relative;
     display: inline-block;
-    margin: 0 auto;
     left: 460px;
     
 
@@ -923,28 +920,33 @@ gmp-map{
 
     .dropdowncontents{
     display: none;
-    position: absolute;
+    position: fixed;
     height: 200px;
-    width: 470px;
+    width: 530px;
     z-index: 1;
     box-shadow: 0px 8px 16px 0px ;
     animation-name: headerchange;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     background-color: white;
-    right: -10px;
-    top: 57px;
+    top: 72px;
     border-radius: 20px;
+    left: 50%;           
+    transform: translateX(-50%);
+    text-align: center;
     
 
 
     }
 
     .dropdowncontents a{
-        text-align: center;
+        position: relative;
+        left: -60px;
         color:black;
         text-decoration: none;
     }
+
+   
 
     .dropdowncontents a:hover{
         color: #e53e61;
@@ -1394,9 +1396,9 @@ gmp-map{
 
     .dropdowncontents{
     display: none;
-    position: absolute;
-    height: 200px;
-    width: 470px;
+    position: fixed;
+    height: 230px;
+    width: 750px;
     z-index: 1;
     box-shadow: 0px 8px 16px 0px ;
     animation-name: headerchange;
@@ -1404,8 +1406,10 @@ gmp-map{
     animation-iteration-count: infinite;
     background-color: white;
     right: -10px;
-    top: 57px;
+    top: 93px;
     border-radius: 20px;
+    left: 50%;           
+    transform: translateX(-50%);
     
 
 
@@ -1413,8 +1417,10 @@ gmp-map{
 
     .dropdowncontents a{
         text-align: center;
+        left: -200px;
         color:black;
         text-decoration: none;
+        
     }
 
     .dropdowncontents a:hover{
@@ -1539,7 +1545,7 @@ gmp-map{
         position: relative;
         height: 300px;
         width: 500px;
-        top: 540px;
+        top: 760px;
         transform: scale(1.3);
     
 
@@ -1572,7 +1578,7 @@ gmp-map{
         height: 420px;
         width: 750px;
         position: relative;
-        top: 440px;
+        top: 680px;
 
     }
     .photopharmacy img{
@@ -1630,7 +1636,7 @@ gmp-map{
 
     .diagramimagehelp{
         position: relative;
-        top: 420px;
+        top: 520px;
         height: 300px;
         width: 480px;
         z-index: -1;
@@ -1642,7 +1648,7 @@ gmp-map{
         width: 750px;
         height: 320px;
         position: relative;
-        top: 400px;
+        top: 630px;
         box-shadow: 0px 8px 16px 0px ;
         color: #540d6e;
         animation-name: headerchange;
@@ -1668,7 +1674,7 @@ gmp-map{
     }
     .medicalequip{
         position: relative;
-        top: 520px;
+        top: 670px;
         height: 300px;
         width: 750px;
         animation-name: headerchange;
@@ -1694,7 +1700,7 @@ gmp-map{
 
     .reviews{
         position: relative;
-        top: 570px;
+        top: 710px;
         height: 300px;
         width: 750px;
         animation-name: headerchange;
@@ -1753,7 +1759,7 @@ gmp-map{
      .mainsectionfooter{
     
     position: relative;
-    top: 640px;
+    top: 740px;
         margin: 0 auto;
     }
     .mainsectionfooter h4{
@@ -1767,7 +1773,7 @@ gmp-map{
     gmp-map{
     width: 300px;
     height: 300px;
-    top: 690px;
+    top: 870px;
     margin: 0 auto;
     position: relative;
     
@@ -1779,7 +1785,7 @@ gmp-map{
 
     .bottom h3{
         position: relative;
-        top: 690px;
+        top: 870px;
         margin: 0 auto;
         font-size: 30px;
 
@@ -1789,7 +1795,7 @@ gmp-map{
         height: 50px;
         width: 50px;
         position: relative;
-        top: 680px;
+        top: 850px;
         transform: scale(1.3);
         
     }
@@ -1797,7 +1803,7 @@ gmp-map{
         height: 75px;
         width: 75px;
         position: relative;
-        top: 693px;
+        top: 863px;
         left: 0px;
         transform: scale(1.3);
     }
@@ -1805,13 +1811,13 @@ gmp-map{
     .copyright h3{
         font-weight: 200;
         font-size: 20px;
-        top: 800px;
+        top: 930px;
         position: relative;
     }
 
     .sectionlast{
         position: relative;
-        top: 1000px;
+        top: 1100px;
     }
     .sectionlast h3{
         color:transparent
@@ -1862,9 +1868,9 @@ gmp-map{
 
     .dropdowncontents{
     display: none;
-    position: absolute;
-    height: 200px;
-    width: 470px;
+    position: fixed;
+    height: 350px;
+    width: 1000px;
     z-index: 1;
     box-shadow: 0px 8px 16px 0px ;
     animation-name: headerchange;
@@ -1872,14 +1878,16 @@ gmp-map{
     animation-iteration-count: infinite;
     background-color: white;
     right: -10px;
-    top: 57px;
+    top: 93px;
     border-radius: 20px;
-    
+
 
 
     }
 
     .dropdowncontents a{
+        padding: 1px;
+        left: -450px;
         text-align: center;
         color:black;
         text-decoration: none;
@@ -1959,7 +1967,6 @@ gmp-map{
         animation-name: headerchange;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-        left: 10px;
         padding: 5px;
         padding-bottom: 55px;
         
@@ -2008,7 +2015,7 @@ gmp-map{
         position: relative;
         height: 300px;
         width: 500px;
-        top: 540px;
+        top: 1040px;
         transform: scale(1.3);
     
 
@@ -2039,14 +2046,14 @@ gmp-map{
 
     .photopharmacy{
         height: 420px;
-        width: 750px;
+        width: 1000px;
         position: relative;
-        top: 440px;
+        top: 940px;
 
     }
     .photopharmacy img{
         height: 420px;
-        width: 750px;
+        width: 1000px;
         border-radius: 20px;
         box-shadow: 0px 8px 16px 0px ;
         color: #540d6e;
@@ -2099,7 +2106,7 @@ gmp-map{
 
     .diagramimagehelp{
         position: relative;
-        top: 350px;
+        top: 790px;
         height: 300px;
         width: 480px;
         z-index: -1;
@@ -2108,10 +2115,10 @@ gmp-map{
     }
 
     .information-section{
-        width: 750px;
+        width: 1000px;
         height: 320px;
         position: relative;
-        top: 400px;
+        top: 890px;
         box-shadow: 0px 8px 16px 0px ;
         color: #540d6e;
         animation-name: headerchange;
@@ -2126,7 +2133,8 @@ gmp-map{
 
     .information-section p{
         text-align: center;
-        font-size: 25px;
+        font-size: 27px;
+        padding-bottom: 3px;
     }
     .information-section h2{
         text-align: center;
@@ -2137,9 +2145,9 @@ gmp-map{
     }
     .medicalequip{
         position: relative;
-        top: 520px;
-        height: 300px;
-        width: 750px;
+        top: 960px;
+        height: 350px;
+        width: 1000px;
         animation-name: headerchange;
         animation-duration: 20s;
         margin: auto;
@@ -2163,9 +2171,9 @@ gmp-map{
 
     .reviews{
         position: relative;
-        top: 570px;
-        height: 300px;
-        width: 750px;
+        top: 1000px;
+        height: 350px;
+        width: 1000px;
         animation-name: headerchange;
         animation-duration: 20s;
         margin: auto;
@@ -2222,7 +2230,7 @@ gmp-map{
      .mainsectionfooter{
     
     position: relative;
-    top: 640px;
+    top: 1040px;
         margin: 0 auto;
     }
     .mainsectionfooter h4{
@@ -2236,7 +2244,7 @@ gmp-map{
     gmp-map{
     width: 300px;
     height: 300px;
-    top: 690px;
+    top: 1090px;
     margin: 0 auto;
     position: relative;
     
@@ -2248,7 +2256,7 @@ gmp-map{
 
     .bottom h3{
         position: relative;
-        top: 690px;
+        top: 1090px;
         margin: 0 auto;
         font-size: 30px;
 
@@ -2258,7 +2266,7 @@ gmp-map{
         height: 50px;
         width: 50px;
         position: relative;
-        top: 680px;
+        top: 1080px;
         transform: scale(1.3);
         
     }
@@ -2266,7 +2274,7 @@ gmp-map{
         height: 75px;
         width: 75px;
         position: relative;
-        top: 693px;
+        top: 1093px;
         left: 0px;
         transform: scale(1.3);
     }
@@ -2274,13 +2282,13 @@ gmp-map{
     .copyright h3{
         font-weight: 200;
         font-size: 20px;
-        top: 800px;
+        top: 1200px;
         position: relative;
     }
 
     .sectionlast{
         position: relative;
-        top: 1000px;
+        top: 1400px;
     }
     .sectionlast h3{
         color:transparent
